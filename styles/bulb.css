@@ -1,0 +1,72 @@
+.bulb-container {
+  position: relative;
+  width: 250px;
+  height: auto;
+}
+
+.bulb-container .image-wrapper {
+  position: relative;
+}
+
+.bulb-container .image-wrapper img.bulb-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bulb-container .image-wrapper .dots-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bulb-container .image-wrapper .dots-wrapper ul.binary-repr-list {
+  width: 40%;
+  margin-top: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.bulb-container .image-wrapper .dots-wrapper ul.binary-repr-list li {
+  display: block;
+  width: 7%;
+  padding-bottom: 7%;
+  margin: 7%;
+  border-radius: 100%;
+  background-color: darkblue;
+}
+
+.bulb-container .button-container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.bulb-container .button-container button {
+  display: block;
+  font-size: 2em;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=bulb.css.map */

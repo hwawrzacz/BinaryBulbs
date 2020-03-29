@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binarne żarówki</title>
 
+    <link rel="stylesheet" type="text/css" href="styles/neumorphi.css" />
     <link rel="stylesheet" type="text/css" href="styles/bulb.css" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
 </head>
 
-<body>
+<body class="nmrph-theme">
+    <div class="controls"></div>
 
-    <div class="contaier">
-        <div class="bulb-container">
-            <img class="bulb-image" alt="Image of bulb" />
-            <button class="bulb-toggle-button">0</button>
+    <div class="container">
+    </div>
+
+    <div class="details">
+        <div class="output-wrapper">
+            <label for="binary-value">Zapis binarny:</label>
+            <input disabled name="binary-value" class="binary-value" />
+        </div>
+
+        <div class="output-wrapper">
+            <label for="decimal-value">Zapis dziesiętny:</label>
+            <input disabled name="decimal-value" class="decimal-value" />
         </div>
     </div>
 
-    <script src="scripts/script.js"></script>
     <script src="scripts/Bulb.js"></script>
+    <script src="scripts/script.js"></script>
 
 </body>
 

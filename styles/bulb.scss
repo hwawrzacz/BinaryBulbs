@@ -1,0 +1,64 @@
+.bulb-container {
+    position: relative;
+
+    width: 250px;
+    height: auto;
+
+
+    .image-wrapper { 
+        position: relative;
+        
+        img.bulb-image {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .dots-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            ul.binary-repr-list {
+                width: 40%;
+                margin-top: -10px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+
+                list-style: none;
+                
+                li {
+                    display: block;
+                    width: 7%;
+                    padding-bottom: 7%;
+                    margin: 7%;
+
+                    border-radius: 100%;
+                    background-color: darkblue;
+                }
+            }
+        }
+    }
+    
+    .button-container {
+        width: 100%;
+        margin-top: 10px;
+
+        button {
+            display: block;
+
+            font-size: 2em;
+            margin: 0 auto;
+        }
+    }
+}
